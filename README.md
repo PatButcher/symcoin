@@ -1,17 +1,10 @@
 Symcoin Core integration/staging tree
 =====================================
 
-https://Symcoincore.org
-
-For an immediately usable, binary version of the Symcoin Core software, see
-https://Symcoincore.org/en/download/.
-
 What is Symcoin Core?
 ---------------------
 
-Symcoin Core connects to the Symcoin peer-to-peer network to download and fully
-validate blocks and transactions. It also includes a wallet and graphical user
-interface, which can be optionally built.
+Symcoin Core is a FORK  of Bitcoin.
 
 Further information about Symcoin Core is available in the [doc folder](/doc).
 
@@ -25,7 +18,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built (see `doc/build-*.md` for instructions) and tested, but it is not guaranteed to be
-completely stable. [Tags](https://github.com/Symcoin/Symcoin/tags) are created
+completely stable. [Tags](https://github.com/PatButcher/Symcoin/tags) are created
 regularly from release branches to indicate new official, stable release versions of Symcoin Core.
 
 The https://github.com/Symcoin-core/gui repository is used exclusively for the
@@ -68,9 +61,6 @@ not straightforward.
 
 Translations
 ------------
-
-Changes to translations as well as new translations can be submitted to
-[Symcoin Core's Transifex page](https://explore.transifex.com/Symcoin/Symcoin/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
